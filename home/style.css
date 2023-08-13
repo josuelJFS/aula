@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#menuBar{
+  display: flex;
+  height: 60px;
+  background-color: #233D98;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+.conteudo{
+  width: 400px;
+  height: 400px;
+  background-color: aquamarine;
+  margin: 10px;
+}

@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  
+}
+h1{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  width: 75%;
+  background: #EAEAEA;
+  border: none;
+  padding: 11px;
+  border-radius: 6px;
+  font-size: 18px;
+  padding-left: 36px;
+  margin-bottom: 15px;
+}
+
+.containerButtons{
+  display: flex;
+  width: 81%;
+  justify-content: end;
+
+}
+
+button{
+  padding: 12px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  width: 20%;
+  font-size: 14px;
+  margin-left: 24px;
+}
+a{
+  padding: 12px;
+  border-radius: 7px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-left: 4%;
+}
+
+#btnLogin{
+  background-color: #6FDF73;
+  color: #fff;
+}
+
+#btnCadastrar{
+  background-color: #6F87DF;
+  color: #fff;
+}
